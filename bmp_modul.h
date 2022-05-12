@@ -10,7 +10,7 @@
 class bmp_modul: public m_RGB_LIGHTS, public Main_menu {
   private:
     
-    const Adafruit_BMP085 bmp; //inicialize class for using 
+    const Adafruit_BMP085 bmp; //initialize class for using 
     float seaLevelPressure_hPa; // Atmospheric pressure //1013.25
     const m_RGB_LIGHTS *m_rgb;  //inicialize class for using 
     const Time_modul *time_modul; //inicialize class for using 
