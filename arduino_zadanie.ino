@@ -5,7 +5,7 @@
 #include "time_modul.h"
 
 
-//array of pointers to classes polymorphism
+//array of pointers to classes of polymorphism
 Main_menu *arr[4] {
   new Time_modul(),
   new bmp_modul(),
