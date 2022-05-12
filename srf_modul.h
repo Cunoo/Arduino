@@ -20,7 +20,7 @@ class Srf_modul: public m_RGB_LIGHTS, public Main_menu {
     Srf_modul(): lcd_srf (new LiquidCrystal_I2C (0x3f,16,2)){
     }
     void settings(){
-      lcd_srf->init(); //inicializate display
+      lcd_srf->init(); //initializate display
      
       pinMode(trig_pin, OUTPUT); // set pin to input without using built in pull up resistor
       pinMode(echo_pin, INPUT);
