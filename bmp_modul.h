@@ -47,8 +47,8 @@ class bmp_modul: public m_RGB_LIGHTS, public Main_menu {
       delay(4900);
       lcd_bmp->clear();    // clearing displaz
       }
-     float set_seaLevelPressure_hPa(float seaLevel){ //setter
-        return this->seaLevelPressure_hPa = seaLevel;
+     void set_seaLevelPressure_hPa(float seaLevel){ //setter
+        this->seaLevelPressure_hPa = seaLevel;
       }
      float getter_seaLevelPressure_hPa(){ // getter
         return this->seaLevelPressure_hPa;
