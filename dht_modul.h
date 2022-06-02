@@ -32,16 +32,16 @@ class dht_modul : public m_RGB_LIGHTS, public Main_menu{
     uint8_t get_dht_pin(){
       return this->DHTPIN;
      }
-    uint8_t set_dht_pin(uint8_t dht_pin){
-        return this->DHTPIN = dht_pin;
+    void set_dht_pin(uint8_t dht_pin){
+        this->DHTPIN = dht_pin;
      }
      
     uint8_t get_dht_type(){
       return this->DHTTYPE;
      }
 
-    uint8_t set_dht_type(uint8_t dhttype ){
-      return this->DHTTYPE = dhttype;
+    void set_dht_type(uint8_t dhttype ){
+      this->DHTTYPE = dhttype;
      }
      
     void loops(){
